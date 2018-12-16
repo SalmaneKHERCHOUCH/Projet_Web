@@ -1,0 +1,308 @@
+<!doctype HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<title>Portfolio_william</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Source+Sans+Pro');
+
+a {color:#939393; text-decoration:none}
+a:hover, a:focus {color:#fff}
+h2{color: white;
+    font-family: 'Source Sans Pro', sans-serif;}
+h3{color: black;
+font-family: 'Source Sans Pro', sans-serif;}
+p{font-family: 'PT Sans', sans-serif;}
+body{
+    background-color: black; 
+}
+
+/*== Sections ==*/
+section h1 {padding:450px; text-align:center; color:white; background:#333; border-top:1px solid red; margin:0}
+section:nth-child(even) h1 {background:#222;} 
+/*== H nav ==*/
+#op-horizontalnav {background:#171717; position:fixed; top:0; right:0; left:0}
+#op-horizontalnav .op-sectionlist {width:100%; max-width:1280px; margin:auto;padding:0; text-align:center; display:table;}
+#op-horizontalnav .op-v-item {list-style:none; display:table-cell; font-size:16px}
+#op-horizontalnav .op-v-item .op-v-link {color:#fff; padding:16px 8px;display:block;text-decoration:none}
+#op-horizontalnav .op-v-item .op-v-link:hover, #op-horizontalnav .op-v-link.active {background-color:red;color:#171717}
+/*== V nav ==*/
+#op-verticalnav {position:fixed; top:0; right:0; left: auto;height: 100%;display:table}
+#op-verticalnav .op-sectionlist {height:100%; text-align:center; display:table-cell; vertical-align:middle}
+#op-verticalnav .op-v-item {display:block}
+#op-verticalnav .justify-height {}
+#op-verticalnav .op-v-link {display:block; margin:12px 0}
+#op-verticalnav .v-marker {width:15px; height:15px; border-radius:50%; background-color:rgba(255,0,27,.4); display:inline-block; vertical-align:middle; margin-bottom:-2px; margin-right:10px;border: 1px solid #e1001b;}
+#op-verticalnav .op-v-link:hover .v-marker, #op-verticalnav .op-v-item .op-v-link.active .v-marker {background-color:rgba(255,0,27,1); }
+#op-verticalnav .op-v-itemdesc {display:inline-block; font-size:14px; position:absolute; white-space:nowrap; line-height:normal; padding:0 34px 0 0;vertical-align:middle}
+#op-verticalnav .op-v-itemdesc .op-v-itembg{display:inline-block; background-color:rgba(0,0,0,.5); color:#fff; padding:4px 10px 6px 10px; border:1px solid rgba(160,160,160,.2); border-radius:4px; }
+#op-verticalnav .op-v-link:hover .op-v-itemdesc {right:0px; }
+/*==Style competence==*/
+.c-progress-rating{width: 60%;background-color: red;}
+.cpp-progress-rating{width: 60%;background-color: red;}
+.java-progress-rating{width: 60%;background-color: red;}
+.html-progress-rating{width: 80%;background-color: red;}
+.css-progress-rating{width: 60%;background-color: red;}
+.bootStrap-progress-rating{width: 60%;background-color: red;}
+.javaScript-progress-rating{width: 50%;background-color: red;}
+.jQuery-progress-rating{width: 40%;background-color: red;}
+.php-progress-rating{width: 60%;background-color: red;}
+.sql-progress-rating{width: 60%;background-color: red;}
+.bg-black{ background-color: black;}
+.body{background-color: black}
+.footer{display: inline-block;}
+.button{margin:0%;}
+/*Responsive*/
+@media only screen and (min-width: 1200px) {
+    .font-div{
+        height: 100px;!important;
+    }
+}
+</style>
+<body>
+<div class="container">
+<section id="accueil">
+    <div class="jumbotron p-5 text-white bg-black">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Mon résumé</h2>
+<p>Je suis quelqu'un de très polyvalent , ponctuel , rigoureux et suis ouvert à la découverte.J'ai pratiqué durant le college differents sports , comme le foot et le basket .Ainsi que dans mes années de scolarité en France. Je pratique actuellement de la musculation, une discipline sportive qui me permet d’allier bien-être physique et mental surtout après de longues heures devant un écran.C'est à partir de mes études en BTS SN, que j'ai découvert le vaste monde de l'informatique , ainsi que l'aspect du devellopement Web qui m'a attiré.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="image\me.png" alt="photo de profile">
+                </div>
+            </div>     
+        </div>
+        </section>
+    <header>
+      <!-- Start horizontal navigation -->
+<nav>
+<div id="op-horizontalnav">
+<ul class="op-sectionlist">
+<li class="op-v-item"><a class="op-v-link" href="#accueil">Accueil</a></li>
+<li class="op-v-item"><a class="op-v-link" href="#competence">Compétences</a></li>
+<li class="op-v-item"><a class="op-v-link" href="#parcours">Parcours</a></li>
+<li class="op-v-item"><a class="op-v-link" href="#travail">Travail</a></li>
+<li class="op-v-item"><a class="op-v-link" href="#contact">Contact</a></li>
+</ul>
+</div>
+</nav>
+    <main>
+         <!-- Wrapper sections -->
+<section id="competence">
+ <div class="p-5 text-white bg-black">
+                <h2>Mes compétences</h2>
+                <h4> C </h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar  c-progress-rating">60%</div>
+                </div>
+
+                <h4> C++ </h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar  cpp-progress-rating">60%</div>
+                </div>
+
+                <h4> Java </h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar   java-progress-rating">60%</div>
+                </div>
+
+                <h4> HTML </h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar  html-progress-rating">80%</div>
+                </div>
+
+                <h4> CSS </h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar css-progress-rating">60%</div>
+                </div>
+
+                <h4> BootStrap </h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar  bootStrap-progress-rating">50%</div>
+                </div>
+
+                <h4> JavaScript </h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar javaScript-progress-rating">50%</div>
+                </div>
+
+                <h4> JQuery </h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar  jQuery-progress-rating">40%</div>
+                </div>
+
+                <h4> PHP </h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar php-progress-rating">60%</div>
+                </div>
+
+                <h4> SQL </h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar  sql-progress-rating">60%</div>
+    </div>
+</section>
+<section id="parcours">
+<div class="p-5 bg-black">
+<h2>Mon parcours professionnel:</h2>
+<div class="card card-body ">
+           <div class="card-deck">
+                    <div class="card text-center">
+                        <div class="card-header text-uppercase font-bold">
+                            Bachelor Développeur Web & Mobile
+                        </div>
+                        <div class="card-body">
+                            <a href="http://www.ecetech.fr/ecole-numerique/" target="_blank"><p>ECE TECH Ecole du Numérique – Groupe INSEEC</p></a>
+                            <p class="bg-dark text-white p-2">Paris 15e</p>
+                        </div>
+                        <div class="card-footer"> Date: 2018 - 2019</div>
+                    </div>
+
+                    <div class="card text-center">
+                        <div class="card-header text-uppercase font-bold">
+                            BTS Systèmes Numérique option Informatique et Réseaux
+                        </div>
+                        <div class="card-body">
+                            <a href="https://www.lgtlecorbusier.org" target="_blank"><p>Lycée LeCorbusier</p></a>
+                            <p class="bg-dark text-white p-2">Seine-Saint-Denis(93) – Aubervilliers</p>
+                        </div>
+                        <div class="card-footer"> Date: 2018</div>
+                    </div>
+                    <div class="card text-center">
+                        <div class="card-header text-uppercase font-bold">
+                            Baccalauréat Géneral S-SVT Spé:Mathematique
+                        </div>
+                        <div class="card-body">
+                            <a href="http://www.lyceepaulrobert.fr" target="_blank"><p>Lycée Paul Robert</p></a>
+                            <p class="bg-dark text-white p-2">Seine-Saint-Denis(93) – Les Lilas</p>
+                        </div>
+                        <div class="card-footer"> Date: 2016</div>
+            </div>
+    </div>
+</div>
+</section>
+<section id="travail">
+<div class="p-5 text-black bg-black">
+ <div class="card card-body">
+     <h3>Mes réalisations:</h3>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <h3 class="text-center">Solution of Cooking</h3>
+                        <p>Il est réalisé dans le cadre de ma formation chez ECE Tech.Le but de ce derniers et de donner la possibiliter a toutes personne de partager c'est talent de cuisinier.Le réseau social se presente ainsi comme un instagram mais sur le theme de la cuisine.</p> 
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <h3 class="text-center">Conditionnement de parfum</h3>
+                        <p>Ce fut un projet a réaliser durant ma deuximeme année de BTS SN.Le contexteétait le suivant:Une entreprise de production de parfum en petites séries, commande à la société industrielle où vous travaillez une ligne de conditionnement de parfum.Ainsi durant le projet j'ai du m'occuper de la gestion du tapis roulant (mouvement et capteurs) ,gestion de la caméra (communication et script de prise de photos) et Analyse de la conformité couleur </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <div class="card-header text-uppercase font-bold">
+                            <h3>Stagiaire Assitant du developeur Web</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>Sarl ASMA</p>
+                            <p>Mission : - Conception et réalisation d'un site Web</p>
+                            <p class="bg-dark text-white p-2"> Paris- 10eme</p>
+                        </div>
+                        <div class="card-footer"> Date: 22 mai – 30 juin 2017</div>
+                    </div>
+                </div>
+            </div> 
+</div>
+</section>
+</div>
+
+<!-- end sections -->
+
+    </main>
+     <!-- Footer -->      
+    <footer>
+    <div class="p-5 text-black bg-white ">
+    <section  id="contact">
+            <div class="card card-body">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <h3 class="text">Résumer:</h3>
+                        <p>Actuellement inscrit en Bachelor Développement Web et Mobile, je suis à la recherche d’une entreprise pour réaliser un stage de 6 mois. 
+                            Je serais ravis de pouvoir collaborer avec vos équipes et mettre à contribution ma motivation au sein de votre entreprise.</p> 
+                            <i class="fa fa-download "></i><a href="dowload/CV_stage_LANNEREY_William.pdf">Télécharger Mon CV</a>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <h3 class="text">Mes réseaux sociaux:</h3>
+                         <i class="fab fa-twitter"></i></i><a href="https://twitter.com/Wil_miam">Twitter</a><br>
+                         <i class="fab fa-instagram"></i></i><a href="https://www.instagram.com/william.lannerey/">Instagram</a><br>
+                        <i class="fab fa-facebook"></i><a href="https://www.facebook.com">Facebook</a><br>
+                        <i class="fab fa-github"></i><a href="https://github.com/Lanwi">Github</a> 
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <h3 class="text">Contact:</h3>
+                        <i class="fas fa-phone"></i><a href="tel:+33 0783557196">:07.83.55.71.96</a>
+                        <br>
+                        <i class="fas fa-at"></i> :<a href="mailto:william.lannerey@gmail.com">william.lannerey@gmail.com</a>
+                        <br>
+                         <i class="fas fa-map-marker-alt"></i> : 46 rue de paris , 93260 Les Lilas
+                    </div>
+                </div>
+            </div> 
+     </section>
+    </footer>
+
+    <!-- Start vertical navigation -->
+<div id="op-verticalnav">
+<ul class="op-sectionlist">
+<li class="op-v-item"><a class="op-v-link" href="#accueil"><span class="v-marker"></span></a></li>
+<li class="op-v-item"><a class="op-v-link" href="#competence"><span class="v-marker"></span></a></li>
+<li class="op-v-item"><a class="op-v-link" href="#parcours"><span class="v-marker"></span></a></li>
+<li class="op-v-item"><a class="op-v-link" href="#travail"><span class="v-marker"></span></a></li>
+<li class="op-v-item"><a class="op-v-link" href="#contact"><span class="v-marker"></span></a></li>
+</ul>
+</div>
+<!-- end vertical navigation -->
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script>
+/* ====== Add Smooth effect ===== */
+$(function() {
+  var scrollToAnchor = function( id ) {
+    var elem = $("section[id='"+ id +"']"); // on crée une balise d'ancrage
+    if ( typeof elem.offset()  === "undefined" ) { // on verifie si l'élément existe
+        elem = $("#"+id); }
+    if ( typeof elem.offset()  !== "undefined" ) { // si l'élément existe, on continue
+      $('html, body').animate({
+              scrollTop: elem.offset().top }, 600 );} // on défini un temps de défilement de page
+  };
+  $("a").click(function( event ) { // on attache la fonction au click
+    if ( $(this).attr("href").match("#") ) { // on vérifie qu'il s'agit d'une ancre
+      event.preventDefault();
+      var href = $(this).attr('href').replace('#', '') // on scroll vers la cible
+      scrollToAnchor( href ); }
+  });
+});
+$(document).scroll(function() {
+    var cutoff = $(window).scrollTop() + 200; // on défini la position de déclenchement (*1)
+    var curSec = $.find('.current'); // on cherche l'élément (section) avec la class current
+    var curID = $(curSec).attr('id'); // on récupère son ID
+    var curNav = $.find('a[href=#'+curID+']'); // on cherche l'élément de navigation correspondant (*2)
+    $('li .op-v-link').removeClass('active'); // on nettoie la navigation de la class active présente
+    $(curNav).addClass('active'); // (*2) -> on ajoute la class active
+
+    $('section').each(function(){
+       if($(this).offset().top + $(this).height() > cutoff){ // si la section est dans le champ de scroll
+            $('section').removeClass('current') // on nettoie les sections de la class current présente
+            $(this).addClass('current'); // on ajoute la class current à la section visible
+            return false; // on stoppe l'iteration (le cas contraire, seule la derniere section se verra ajoutée la class)
+        }
+    });
+});
+</script>
+</div>
+</body>
+</html>
+
+
