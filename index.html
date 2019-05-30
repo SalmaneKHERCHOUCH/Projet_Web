@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,11 +14,7 @@
   <!-- fonts -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
     crossorigin="anonymous">
-  
-  <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
-
-  <!-- Personnal css -->
-  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
 </head>
 <style>
   
@@ -34,6 +31,17 @@ html {
   height: 100%;
   scroll-behavior: smooth;
 }
+nav a img {
+      vertical-align: middle;
+      width: 30px;
+      height: 30px;
+}
+nav img {
+      vertical-align: middle;
+      width: 30px;
+      height: 30px;
+}
+
 
 #mainNav {
   text-transform: uppercase;
@@ -274,17 +282,16 @@ footer {
 
   <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">home</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="image/logo.png" alt="logo"></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        Menu
+        <img src="image/menu.png" alt="logo">
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Compétances</a>
+            <a class="nav-link js-scroll-trigger" href="#skills">Compétences</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#education">Education</a>
@@ -293,7 +300,7 @@ footer {
             <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#networks">Networks</a>
+            <a class="nav-link js-scroll-trigger" href="#networks">Réseaux</a>
           </li>
         </ul>
       </div>
@@ -308,7 +315,7 @@ footer {
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h1 class="htitle">William Lannerey</h1>
-            <p class="hintrotext">Développeur Informatique</p>
+            <p class="hintrotext">Développeur web et mobile</p>
             <p>Je suis quelqu'un de très polyvalent , ponctuel , rigoureux et suis ouvert à la découverte.J'ai pratiqué durant le college differents sports , comme le foot et le basket .Ainsi que dans mes années de scolarité en France. Je pratique actuellement de la musculation, une discipline sportive qui me permet d’allier bien-être physique et mental surtout après de longues heures devant un écran.C'est à partir de mes études en BTS SN, que j'ai découvert le vaste monde de l'informatique , ainsi que l'aspect du devellopement Web qui m'a attiré.</p>
   
           </div>
@@ -423,31 +430,24 @@ footer {
           <ul class="list-group text-left">
             <li class="list-group-item flex-column align-items-start">
               <div class="d-flex w-100 justify-content-between">
-                <h3 class="mb-1">Licence Informatique Générale -Bac+3 </h3>
-                <small style="text-align: end;">2019-2020</small>
-              </div>
-              <p class="mb-1">Étudie à Itescia Cergy-Pontoise</p>
-            </li>
-            <li class="list-group-item flex-column align-items-start">
-              <div class="d-flex w-100 justify-content-between">
                 <h3 class="mb-1">Bachelor DWM (Web & Mobile)</h3>
-                <small style="text-align: end;">2018-2019</small>
+                <small style="text-align: end;">2019</small>
               </div>
-              <p class="mb-1">Étudié à ECE-TECH Paris</p>
+              <p class="mb-1">Studied at ECE-TECH Paris</p>
             </li>
             <li class="list-group-item flex-column align-items-start">
               <div class="d-flex w-100 justify-content-between">
                 <h3 class="mb-1">BTS SNIR</h3>
                 <small>2018</small>
               </div>
-              <p class="mb-1">Étudié à LeCorbusier-Aubervilliers</p>
+              <p class="mb-1">Studied at LeCorbusier-Aubervilliers</p>
             </li>
             <li class="list-group-item flex-column align-items-start">
               <div class="d-flex w-100 justify-content-between">
                 <h3 class="mb-1">Bac S-SVT Spé:Mathematique</h3>
                 <small>2016</small>
               </div>
-              <p class="mb-1">Étudié à Paul Robert -Les Lilas </p>
+              <p class="mb-1">Studied at Paul Robert -Les Lilas </p>
             </li>
       </div>
       <div class="col-lg-8 mx-auto mt-5">
@@ -471,7 +471,7 @@ footer {
                 <h3 class="card-title">Project Conditionnement de parfum</h3>
                   <h4 class="card-subtitle mb-2 text-muted">2018 - Lecorbusier (93)</h4>
                   <p class="card-text">Ce fut un projet a réaliser durant ma deuximeme année de BTS SN.Le contexteétait le suivant:Une entreprise de production de parfum en petites séries, commande à la société industrielle où vous travaillez une ligne de conditionnement de parfum.Ainsi durant le projet j'ai du m'occuper de la gestion du tapis roulant (mouvement et capteurs) ,gestion de la caméra (communication et script de prise de photos) et Analyse de la conformité couleur </p>
-                  <small>4 mois</small>
+                  <small>6 months</small>
                 </div>
               </div>
             </div>
@@ -585,10 +585,12 @@ footer {
 
   navbarCollapse();
 
+
   $(window).scroll(navbarCollapse);
 
 
 })(jQuery);
+
 
 var docWidth = document.documentElement.offsetWidth;
 
